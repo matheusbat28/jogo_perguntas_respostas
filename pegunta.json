@@ -1,0 +1,227 @@
+{
+    "p1": {
+        "p": "Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?",
+        "a": "Tem entre 2 a 4 litros. São retirados 450 mililitros",
+        "b": "Tem entre 4 a 6 litros. São retirados 450 mililitros",
+        "c": "Tem 10 litros. São retirados 2 litros",
+        "d": "Tem 7 litros. São retirados 1,5 litros",
+        "e": "Tem 0,5 litros. São retirados 0,5 litros",
+        "r": "b"
+    },
+    "p2": {
+        "p": "De quem é a famosa frase “Penso, logo existo”?",
+        "a": "Platão",
+        "b": "Galileu Galilei",
+        "c": "Descartes",
+        "d": "Sócrates",
+        "e": "Francis Bacon",
+        "r": "c"
+    },
+    "p3": {
+        "p": "De onde é a invenção do chuveiro elétrico?",
+        "a": "França",
+        "b": "Inglaterra",
+        "c": "Brasil",
+        "d": "Austrália",
+        "e": "Itália",
+        "r": "c"
+    },
+    "p4": {
+        "p": "Quais o menor e o maior país do mundo?",
+        "a": "Vaticano e Rússia",
+        "b": "Nauru e China",
+        "c": "Mônaco e Canadá",
+        "d": "Malta e Estados Unidos",
+        "e": "São Marino e Índia",
+        "r": "a"
+    },
+    "p5": {
+        "p": "Qual o nome do presidente do Brasil que ficou conhecido como Jango?",
+        "a": "Jânio Quadros",
+        "b": "Jacinto Anjos",
+        "c": "Getúlio Vargas",
+        "d": "João Figueiredo",
+        "e": "João Goulart",
+        "r": "e"
+    },
+    "p6": {
+        "p": "Qual o grupo em que todas as palavras foram escritas corretamente?",
+        "a": "Asterístico, beneficiente, meteorologia, entertido",
+        "b": "Asterisco, beneficente, meteorologia, entretido",
+        "c": "Asterisco, beneficente, metereologia, entretido",
+        "d": "Asterístico, beneficiente, metereologia, entretido",
+        "e": "Asterisco, beneficiente, metereologia, entretido",
+        "r": "b"
+    },
+    "p7": {
+        "p": "Qual o livro mais vendido no mundo a seguir à Bíblia?",
+        "a": "O Senhor dos Anéis",
+        "b": "Dom Quixote",
+        "c": "O Pequeno Príncipe",
+        "d": "Ela, a Feiticeira",
+        "e": "Um Conto de Duas Cidades",
+        "r": "b"
+    },
+    "p8": {
+        "p": "Quantas casas decimais tem o número pi?",
+        "a": "Duas",
+        "b": "Centenas",
+        "c": "Infinitas",
+        "d": "Vinte",
+        "e": "Milhares",
+        "r": "c"
+    },
+    "p9": {
+        "p": "Atualmente, quantos elementos químicos a tabela periódica possui?",
+        "a": "113",
+        "b": "109",
+        "c": "108",
+        "d": "118",
+        "e": "92",
+        "r": "d"
+    },
+    "p10": {
+        "p": "Quais os países que têm a maior e a menor expectativa de vida do mundo?",
+        "a": "Japão e Serra Leoa",
+        "b": "Austrália e Afeganistão",
+        "c": "Itália e Chade",
+        "d": "Brasil e Congo",
+        "e": "Estados Unidos e Angola",
+        "r": "a"
+    },
+    "p11": {
+        "p": "O que a palavra legend significa em português?",
+        "a": "Legenda",
+        "b": "Conto",
+        "c": "História",
+        "d": "Lenda",
+        "e": "Legendário",
+        "r": "d"
+    },
+    "p12": {
+        "p": "Qual o número mínimo de jogadores em cada time numa partida de futebol?",
+        "a": "8",
+        "b": "10",
+        "c": "9",
+        "d": "7",
+        "e": "5",
+        "r": "7"
+    },
+    "p13": {
+        "p": "Quais os principais autores do Barroco no Brasil?",
+        "a": "Gregório de Matos, Bento Teixeira e Manuel Botelho de Oliveira",
+        "b": "Miguel de Cervantes, Gregório de Matos e Danthe Alighieri",
+        "c": "Padre Antônio Vieira, Padre Manuel de Melo e Gregório de Matos",
+        "d": "Castro Alves, Bento Teixeira e Manuel Botelho de Oliveira",
+        "e": "Álvares de Azevedo, Gregório de Matos e Bento Teixeira",
+        "r": "a"
+    },
+    "p14": {
+        "p": "Quais as duas datas que são comemoradas em novembro?",
+        "a": "Independência do Brasil e Dia da Bandeira",
+        "b": "Proclamação da República e Dia Nacional da Consciência Negra",
+        "c": "Dia do Médico e Dia de São Lucas",
+        "d": "Dia de Finados e Dia Nacional do Livro",
+        "e": "Black Friday e Dia da Árvore",
+        "r": "b"
+    },
+    "p15": {
+        "p": "Quem pintou Guernica?",
+        "a": "Paul Cézanne",
+        "b": "Pablo Picasso",
+        "c": "Diego Rivera",
+        "d": "Tarsila do Amaral",
+        "e": "Salvador Dalí",
+        "r": "b"
+    },
+    "p16": {
+        "p": "Quanto tempo a luz do Sol demora para chegar à Terra?",
+        "a": "12 minutos",
+        "b": "1 dia",
+        "c": "12 horas",
+        "d": "8 minutos",
+        "e": "12 segundos",
+        "r": "d"
+    },
+    "p17": {
+        "p": "Qual a tradução da frase “Fabiano cogió su saco antes de salir”?",
+        "a": "Fabiano coseu seu paletó antes de sair",
+        "b": "Fabiano fechou o saco antes de sair",
+        "c": "Fabiano pegou seu paletó antes de sair",
+        "d": "Fabiano cortou o saco antes de cair",
+        "e": "Fabiano rasgou seu paletó antes de cair",
+        "r": "c"
+    },
+    "p18": {
+        "p": "Qual a nacionalidade de Che Guevara?",
+        "a": "Cubana",
+        "b": "Peruana",
+        "c": "Panamenha",
+        "d": "Boliviana",
+        "e": "Argentina",
+        "r": "e"
+    },
+    "p19": {
+        "p": "Quais são os três predadores do reino animal reconhecidos pela habilidade de caçar em grupo, se camuflar para surpreender as presas e possuir sentidos apurados, respectivamente:",
+        "a": "Tubarão branco, crocodilo e sucuri",
+        "b": "Tigre, gavião e orca",
+        "c": "Hiena, urso branco e lobo cinzento",
+        "d": "Orca, onça e tarântula",
+        "e": "Leão, tubarão branco e urso cinzento",
+        "r": "c"
+    },
+    "p20": {
+        "p": "Qual a altura da rede de vôlei nos jogos masculino e feminino?",
+        "a": "2,4 para ambos",
+        "b": "2,5 m e 2,0 m",
+        "c": "1,8 m e 1,5 m",
+        "d": "2,45 m e 2,15 m",
+        "e": "2,43 m e 2,24 m",
+        "r": "e"
+    },
+    "p21": {
+        "p": "Em que ordem surgiram os modelos atômicos?",
+        "a": "Thomson, Dalton, Rutherford, Rutherford-Bohr",
+        "b": "Rutherford-Bohr, Rutherford, Thomson, Dalton",
+        "c": "Dalton, Rutherford-Bohr, Thomson, Rutherford",
+        "d": "Dalton, Thomson, Rutherford-Bohr, Rutherford",
+        "e": "Dalton, Thomson, Rutherford, Rutherford-Bohr",
+        "r": "e"
+    },
+    "p22": {
+        "p": "Qual personagem folclórico costuma ser agradado pelos caçadores com a oferta de fumo?",
+        "a": "Caipora",
+        "b": "Saci",
+        "c": "Lobisomem",
+        "d": "Boitatá",
+        "e": "Negrinho do Pastoreio",
+        "r": "a"
+    },
+    "p23": {
+        "p": "Em que período da pré-história o fogo foi descoberto?",
+        "a": "Neolítico",
+        "b": "Paleolítico",
+        "c": "Idade dos Metais",
+        "d": "Período da Pedra Polida",
+        "e": "Idade Média",
+        "r": "b"
+    },
+    "p24": {
+        "p": "Qual das alternativas abaixo apenas contêm classes de palavras?",
+        "a": "Vogais, semivogais e consoantes",
+        "b": "Artigo, verbo transitivo e verbo intransitivo",
+        "c": "Fonologia, Morfologia e Sintaxe",
+        "d": "Hiatos, ditongos e tritongos",
+        "e": "Substantivo, verbo e preposição",
+        "r": "e"
+    },
+    "p25": {
+        "p": "Qual a montanha mais alta do Brasil?",
+        "a": "Pico da Neblina",
+        "b": "Pico Paraná",
+        "c": "Monte Roraima",
+        "d": "Pico Maior de Friburgo",
+        "e": "Pico da Bandeira",
+        "r": "a"
+    }
+}
