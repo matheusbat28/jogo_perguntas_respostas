@@ -5,7 +5,7 @@ from time import sleep
 
 
 def abrirPeguntas():
-    with open('pegunta.json', encoding='utf-8') as arquivo:
+    with open('./pegunta.json', encoding='utf-8') as arquivo:
         return json.load(arquivo)
     
 def quantidadePeguntas(lista):
@@ -21,10 +21,10 @@ def mostrarPegunta(perguntaEscolhida, numero, nome):
     print(f'Jogador {nome}')
     print(str(numero) + '          -----Pergunta-----\n' + perguntaEscolhida['p'])
     print('A) ' + perguntaEscolhida['a'] + '\n' + 
-          'b) ' + perguntaEscolhida['b'] + '\n' +
+          'B) ' + perguntaEscolhida['b'] + '\n' +
           'C) ' + perguntaEscolhida['c'] + '\n' +
-          'd) ' + perguntaEscolhida['d'] + '\n' +
-          'e) ' + perguntaEscolhida['e'] + '\n')
+          'D) ' + perguntaEscolhida['d'] + '\n' +
+          'E) ' + perguntaEscolhida['e'] + '\n')
     
 def verificarOpcao(perguntaEscolhida):
     while True:
@@ -40,7 +40,7 @@ def verificarOpcao(perguntaEscolhida):
             print('Certa reposta!!!')
             return True
         else: 
-            print('Errou!!')
+            print('Errou!!\n' + 'Resposta correta: ' + perguntaEscolhida[perguntaEscolhida['r']])
             return False
         
         
@@ -60,9 +60,11 @@ def verificarVitoria(jogador1, jogador2):
         jogador2['status'] = 'Vitória'
         jogador1['status'] = 'Derrota'
 
+pgAntiga = []
 perguntas = abrirPeguntas()
 qtdPerguntas = quantidadePeguntas(perguntas)
 partidas = 20
+perguntaEscolhida = None
 
 jogador1 = {
     'nome': '',
@@ -98,7 +100,15 @@ sleep(6)
 os.system('clear') or None
 
 for x in range(1, partidas+1):
-    perguntaEscolhida = escolherPerguntas(perguntas, qtdPerguntas)
+    while True:
+        perguntaEscolhida = escolherPerguntas(perguntas, qtdPerguntas)
+
+        if perguntaEscolhida in pgAntiga:
+            perguntaEscolhida = escolherPerguntas(perguntas, qtdPerguntas)
+        else:
+            pgAntiga.append(perguntaEscolhida)
+            break
+            
     
     if x % 2 == 0:
         mostrarPegunta(perguntaEscolhida, x, jogador1['nome'])
