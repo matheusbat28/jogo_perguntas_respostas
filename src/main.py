@@ -5,7 +5,7 @@ from time import sleep
 
 
 def abrirPeguntas():
-    with open('./pegunta.json', encoding='utf-8') as arquivo:
+    with open('./src/pegunta.json', encoding='utf-8') as arquivo:
         return json.load(arquivo)
     
 def quantidadePeguntas(lista):
@@ -92,12 +92,12 @@ if j2 == '':
     jogador2['nome'] = 'Jogador 2'
 else:
     jogador2['nome'] = j2
-os.system('clear') or None
+os.system('cls') or None
 
 print('\n-----Iniciado o jogo-----')
 print(f'Jogador n1° {jogador1["nome"]} \nJogador n2° {jogador2["nome"]}')
 sleep(6)
-os.system('clear') or None
+os.system('cls') or None
 
 for x in range(1, partidas+1):
     while True:
@@ -117,7 +117,7 @@ for x in range(1, partidas+1):
         else:
             jogador1['qtdErro'] += 1
         sleep(2)
-        os.system('clear') or None
+        os.system('cls') or None
     else:
         mostrarPegunta(perguntaEscolhida, x, jogador2['nome'])
         if verificarOpcao(perguntaEscolhida):
@@ -125,7 +125,7 @@ for x in range(1, partidas+1):
         else:
             jogador2['qtdErro'] += 1
         sleep(2)
-        os.system('clear') or None
+        os.system('cls') or None
   
 verificarVitoria(jogador1, jogador2)  
         
