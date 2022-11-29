@@ -50,15 +50,14 @@ def mostrarJogadores(jogador):
         
 def verificarVitoria(jogador1, jogador2):
     if jogador1['qtdAcertos'] < jogador2['qtdAcertos']:
-        jogador1['status'] = 'Vitória'
-        jogador2['status'] = 'Derrota'
-        
+        jogador2['status'] = 'Vitória'
+        jogador1['status'] = 'Derrota'   
     elif jogador1['qtdAcertos'] == jogador2['qtdAcertos']:
         jogador1['status'] = 'Empate'
         jogador2['status'] = 'Empate'
     else:
-        jogador2['status'] = 'Vitória'
-        jogador1['status'] = 'Derrota'
+        jogador1['status'] = 'Vitória'
+        jogador2['status'] = 'Derrota'
 
 pgAntiga = []
 perguntas = abrirPeguntas()
